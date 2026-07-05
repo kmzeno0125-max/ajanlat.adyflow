@@ -37,11 +37,11 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     type: 'video',
-    label: 'Vide\u00f3s visszajelz\u00e9s',
-    name: 'Szab\u00f3 L\u00e1szl\u00f3',
+    label: 'Videós visszajelzés',
+    name: 'Szabó László',
     company: 'LDSZ & SECCAM',
-    role: '\u00dcgyvezet\u0151',
-    quote: 'Az AdyFlow csapat hozta a munk\u00e1t, amit \u00edg\u00e9rt. V\u00e9gre nem kell ut\u00e1nakapkodnom az \u00e9rdekl\u0151d\u0151knek.',
+    role: 'Ügyvezető',
+    quote: 'Az AdyFlow csapat hozta a munkát, amit ígért. Végre nem kell utánakapkodnom az érdeklődőknek.',
     videoUrl: 'https://www.youtube.com/embed/rr5Nldl6VGA',
     videoId: 'rr5Nldl6VGA',
     aspect: '9:16',
@@ -49,11 +49,11 @@ const testimonials: Testimonial[] = [
   {
     id: 2,
     type: 'video',
-    label: 'Vide\u00f3s visszajelz\u00e9s',
+    label: 'Videós visszajelzés',
     name: 'Kocsis Ferenc',
     company: 'Piccolo italiano',
-    role: '\u00dcgyvezet\u0151',
-    quote: 'Professzion\u00e1lis csapat, kimagasl\u00f3 eredm\u00e9nyek. Aj\u00e1nlom mindenkinek, aki komolyan gondolja a n\u00f6veked\u00e9st.',
+    role: 'Ügyvezető',
+    quote: 'Professzionális csapat, kimagasló eredmények. Ajánlom mindenkinek, aki komolyan gondolja a növekedést.',
     videoUrl: 'https://www.youtube.com/embed/oP2xr-ivdwQ',
     videoId: 'oP2xr-ivdwQ',
     aspect: '16:9',
@@ -64,11 +64,11 @@ const testimonials: Testimonial[] = [
     label: 'Schriftliche Referenz',
     name: 'Jakab Elias',
     company: 'Jaka Projekt GmbH',
-    role: 'Gesch\u00e4ftsf\u00fchrer',
+    role: 'Geschäftsführer',
     industry: 'Gipser- & Malerarbeiten',
     country: 'Schweiz',
-    quoteDe: 'Die Zusammenarbeit mit AdyFlow war eine der besten Entscheidungen f\u00fcr unser Unternehmen. Das Team ist unglaublich professionell, reagiert schnell und liefert zuverl\u00e4ssig Ergebnisse. Seit wir mit ihnen arbeiten, erhalten wir deutlich mehr qualifizierte Anfragen \u2013 und zum Monatsende konnten wir sp\u00fcrbar mehr Projekte erfolgreich abschliessen. Wir k\u00f6nnen AdyFlow jedem Handwerksbetrieb w\u00e4rmstens empfehlen.',
-    quoteHu: 'Az AdyFlow-val val\u00f3 egy\u00fcttm\u0171k\u00f6d\u00e9s az egyik legjobb d\u00f6nt\u00e9s\u00fcnk volt. A csapat hihetetlenul profi, gyorsan reag\u00e1l \u00e9s megb\u00edzhat\u00f3an sz\u00e1ll\u00edtja az eredm\u00e9nyeket. Ami\u00f3ta vel\u00fck dolgozunk, \u00e9rezhet\u0151en t\u00f6bb min\u0151s\u00e9gi megkeres\u00e9st kapunk \u2013 \u00e9s a h\u00f3nap v\u00e9g\u00e9re j\u00f3val t\u00f6bb projektet tudtunk sikeresen lez\u00e1rni. Sz\u00edvb\u0151l aj\u00e1nljuk az AdyFlow-t minden szakipari v\u00e1llalkoz\u00e1snak.',
+    quoteDe: 'Die Zusammenarbeit mit AdyFlow war eine der besten Entscheidungen für unser Unternehmen. Das Team ist unglaublich professionell, reagiert schnell und liefert zuverlässig Ergebnisse. Seit wir mit ihnen arbeiten, erhalten wir deutlich mehr qualifizierte Anfragen – und zum Monatsende konnten wir spürbar mehr Projekte erfolgreich abschliessen. Wir können AdyFlow jedem Handwerksbetrieb wärmstens empfehlen.',
+    quoteHu: 'Az AdyFlow-val való együttműködés az egyik legjobb döntésünk volt. A csapat hihetetlenul profi, gyorsan reagál és megbízhatóan szállítja az eredményeket. Amióta velük dolgozunk, érezhetően több minőségi megkeresést kapunk – és a hónap végére jóval több projektet tudtunk sikeresen lezárni. Szívből ajánljuk az AdyFlow-t minden szakipari vállalkozásnak.',
     logo: '/assets/images/image.png',
     rating: 5,
   },
@@ -78,24 +78,24 @@ const testimonials: Testimonial[] = [
     label: 'Schriftliche Referenz',
     name: 'Hermann Andreas',
     company: 'UPGRADE Zeitarbeit GmbH',
-    role: 'Gesch\u00e4ftsf\u00fchrer',
-    industry: 'Zeitarbeit & Fachkr\u00e4ftevermittlung',
-    country: '\u00d6sterreich',
-    quoteDe: 'Die Zusammenarbeit mit AdyFlow war f\u00fcr uns sehr professionell und klar strukturiert. Besonders im Bereich der Fachkr\u00e4fte, Handwerksbetriebe und projektbezogenen Anfragen konnten wir durch die Kampagnen deutlich gezielter sichtbar werden. Das Team arbeitet schnell, zuverl\u00e4ssig und versteht, worauf es in unserer Branche ankommt. Wir k\u00f6nnen AdyFlow definitiv weiterempfehlen.',
-    quoteHu: 'Az AdyFlow-val val\u00f3 egy\u00fcttm\u0171k\u00f6d\u00e9s nagyon professzion\u00e1lis \u00e9s \u00e1tl\u00e1that\u00f3 volt sz\u00e1munkra. K\u00fcl\u00f6n\u00f6sen a szakemberek, kivitelez\u0151 c\u00e9gek \u00e9s projektalap\u00fa megkeres\u00e9sek ter\u00fclet\u00e9n siker\u00fclt sokkal c\u00e9lzottabban l\u00e1that\u00f3v\u00e1 v\u00e1lnunk a kamp\u00e1nyok seg\u00edts\u00e9g\u00e9vel. A csapat gyorsan, megb\u00edzhat\u00f3an dolgozik, \u00e9s \u00e9rti, mire van sz\u00fcks\u00e9g a mi ipar\u00e1gunkban. J\u00f3 sz\u00edvvel aj\u00e1nljuk az AdyFlow-t.',
+    role: 'Geschäftsführer',
+    industry: 'Zeitarbeit & Fachkräftevermittlung',
+    country: 'Österreich',
+    quoteDe: 'Die Zusammenarbeit mit AdyFlow war für uns sehr professionell und klar strukturiert. Besonders im Bereich der Fachkräfte, Handwerksbetriebe und projektbezogenen Anfragen konnten wir durch die Kampagnen deutlich gezielter sichtbar werden. Das Team arbeitet schnell, zuverlässig und versteht, worauf es in unserer Branche ankommt. Wir können AdyFlow definitiv weiterempfehlen.',
+    quoteHu: 'Az AdyFlow-val való együttműködés nagyon professzionális és átlátható volt számunkra. Különösen a szakemberek, kivitelező cégek és projektalapú megkeresések területén sikerült sokkal célzottabban láthatóvá válnunk a kampányok segítségével. A csapat gyorsan, megbízhatóan dolgozik, és érti, mire van szükség a mi iparágunkban. Jó szívvel ajánljuk az AdyFlow-t.',
     logo: '/assets/images/image copy.png',
     rating: 5,
   },
   {
     id: 5,
     type: 'text',
-    label: '\u00cdR\u00c1SOS VISSZAJELZ\u00c9S',
-    name: 'Kari Zolt\u00e1n',
-    company: 'Plisz\u00e9Pro',
-    role: '\u00dcgyvezet\u0151',
-    industry: 'Pliss\u00e9 \u00e9s sz\u00fanyogh\u00e1l\u00f3',
-    country: 'Magyarorsz\u00e1g',
-    quoteHu: 'Az AdyFlow-val val\u00f3 egy\u00fcttm\u0171k\u00f6d\u00e9s sokkal t\u00f6bbet adott, mint egy egyszer\u0171 hirdet\u00e9skezel\u00e9s. A kamp\u00e1nyoknak k\u00f6sz\u00f6nhet\u0151en t\u00f6bb \u00e9rdekl\u0151d\u0151 \u00e9s t\u00f6bb megrendel\u00e9s \u00e9rkezett, f\u0151leg a pliss\u00e9 \u00e9s sz\u00fanyogh\u00e1l\u00f3 term\u00e9keinkre. Emellett olyan \u00fczleti \u00e9s kommunik\u00e1ci\u00f3s \u00f6tleteket is kaptunk, amelyek seg\u00edtettek \u00e1tl\u00e1that\u00f3bban m\u0171k\u00f6dni \u00e9s tov\u00e1bb b\u0151v\u00edteni a c\u00e9get. Profi, gyors \u00e9s megb\u00edzhat\u00f3 csapat \u2013 j\u00f3 sz\u00edvvel aj\u00e1nlom \u0151ket.',
+    label: 'ÍRÁSOS VISSZAJELZÉS',
+    name: 'Kari Zoltán',
+    company: 'PliszéPro',
+    role: 'Ügyvezető',
+    industry: 'Plissé és szúnyogháló',
+    country: 'Magyarország',
+    quoteHu: 'Az AdyFlow-val való együttműködés sokkal többet adott, mint egy egyszerű hirdetéskezelés. A kampányoknak köszönhetően több érdeklődő és több megrendelés érkezett, főleg a plissé és szúnyogháló termékeinkre. Emellett olyan üzleti és kommunikációs ötleteket is kaptunk, amelyek segítettek átláthatóbban működni és tovább bővíteni a céget. Profi, gyors és megbízható csapat – jó szívvel ajánlom őket.',
     logo: '/assets/images/image copy copy.png',
     rating: 5,
     accentColor: 'orange',
@@ -122,7 +122,7 @@ function VideoSlide({ testimonial }: { testimonial: VideoTestimonial }) {
               <>
                 <img
                   src={`https://img.youtube.com/vi/${testimonial.videoId}/hqdefault.jpg`}
-                  alt={`${testimonial.name} vide\u00f3s visszajelz\u00e9s`}
+                  alt={`${testimonial.name} videós visszajelzés`}
                   className="w-full h-full object-cover"
                 />
                 <button
@@ -140,7 +140,7 @@ function VideoSlide({ testimonial }: { testimonial: VideoTestimonial }) {
             ) : (
               <iframe
                 src={`${testimonial.videoUrl}?autoplay=1&rel=0`}
-                title={`${testimonial.name} visszajelz\u00e9s`}
+                title={`${testimonial.name} visszajelzés`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="w-full h-full"
@@ -163,7 +163,7 @@ function VideoSlide({ testimonial }: { testimonial: VideoTestimonial }) {
         <div className="text-left">
           <p className="font-sora font-semibold text-sm text-white">{testimonial.name}</p>
           <p className="font-manrope text-xs text-muted">
-            {testimonial.role && `${testimonial.role} \u2022 `}{testimonial.company}
+            {testimonial.role && `${testimonial.role} • `}{testimonial.company}
           </p>
         </div>
       </div>
@@ -233,7 +233,7 @@ function TextSlide({ testimonial }: { testimonial: TextTestimonial }) {
         >
           <Languages className="w-4 h-4 text-accent-purple/70 group-hover:text-accent-purple transition-colors" />
           <span className="text-xs font-manrope font-medium text-white/60 group-hover:text-white/80 transition-colors">
-            {lang === 'de' ? 'Ford\u00edt\u00e1s magyarra' : 'Deutsches Original'}
+            {lang === 'de' ? 'Fordítás magyarra' : 'Deutsches Original'}
           </span>
           <span className="flex gap-0.5 ml-1">
             <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded transition-all duration-200 ${lang === 'de' ? 'bg-accent-purple/20 text-accent-purple' : 'text-white/30'}`}>DE</span>
@@ -265,7 +265,7 @@ function TextSlide({ testimonial }: { testimonial: TextTestimonial }) {
         <div className="text-left">
           <p className="font-sora font-semibold text-base text-white">{testimonial.name}</p>
           <p className="font-manrope text-sm text-muted">
-            {testimonial.role && `${testimonial.role} \u2022 `}{testimonial.company}
+            {testimonial.role && `${testimonial.role} • `}{testimonial.company}
           </p>
           {testimonial.industry && (
             <p className="font-manrope text-xs text-muted/70">
@@ -327,16 +327,16 @@ export default function Testimonials() {
           >
             <div className="w-2 h-2 rounded-full bg-accent-purple animate-pulse" />
             <span className="text-sm font-manrope font-medium text-muted">
-              Val\u00f3di visszajelz\u00e9sek
+              Valódi visszajelzések
             </span>
           </motion.div>
 
           <h2 className="font-sora font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">
             Nem mi mondjuk{' '}
-            <span className="gradient-text">magunkr\u00f3l</span>
+            <span className="gradient-text">magunkról</span>
           </h2>
           <p className="text-muted font-manrope text-lg max-w-xl mx-auto">
-            Val\u00f3di tapasztalatok olyan v\u00e1llalkoz\u00f3kt\u00f3l, akik m\u00e1r vel\u00fcnk dolgoznak \u00e9s l\u00e1tj\u00e1k az eredm\u00e9nyeket.
+            Valódi tapasztalatok olyan vállalkozóktól, akik már velünk dolgoznak és látják az eredményeket.
           </p>
         </motion.div>
 
@@ -413,7 +413,7 @@ export default function Testimonials() {
             className="group relative inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-sora font-semibold text-base text-white bg-gradient-to-r from-accent-blue via-accent-purple to-accent-pink shadow-lg shadow-accent-purple/25 hover:shadow-xl hover:shadow-accent-purple/35 hover:scale-[1.03] transition-all duration-300"
           >
             <span className="absolute inset-0 rounded-full bg-gradient-to-r from-accent-blue via-accent-purple to-accent-pink opacity-0 group-hover:opacity-100 blur-lg transition-opacity duration-300 -z-10" />
-            \u00c9n is k\u00e9rek ilyen eredm\u00e9nyeket
+            Én is kérek ilyen eredményeket
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
           </a>
         </motion.div>

@@ -74,7 +74,7 @@ export default function Steps() {
             className="group relative inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-sora font-semibold text-base text-white bg-gradient-to-r from-accent-blue via-accent-purple to-accent-pink shadow-lg shadow-accent-purple/25 hover:shadow-xl hover:shadow-accent-purple/35 hover:scale-[1.03] transition-all duration-300"
           >
             <span className="absolute inset-0 rounded-full bg-gradient-to-r from-accent-blue via-accent-purple to-accent-pink opacity-0 group-hover:opacity-100 blur-lg transition-opacity duration-300 -z-10" />
-            Lefoglalom az ingyenes id\u0151pontom
+            Lefoglalom az ingyenes időpontom
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
           </a>
         </motion.div>
